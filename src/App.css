@@ -1,0 +1,57 @@
+.header {
+  background-color: rgb(69, 67, 65);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+.header h1{
+  letter-spacing: 0.5rem;
+  margin-left: 2rem;
+}
+.create-btn-container{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.task-container {
+  display: flex;
+}
+.card-wrapper {
+  height: 250px;
+  width: 300px;
+  margin: 1rem;
+  box-shadow: 0px 3px 20px #a5a5a5;
+  border-radius: 10px;
+  
+}
+.Description{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.task-holder {
+  padding: 1rem;
+
+}
+
+.card-header {
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.task-container {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.icons-container{
+  position: relative;
+  margin: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+}
